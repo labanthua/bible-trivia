@@ -9,7 +9,7 @@ describe('Our first test', () => {
 });
 
 describe('index.html', () => {
-    it('should say welcome', (done) => {
+    it('should say Welcome to Catholic Bible Trivia 2019!', (done) => {
         const index = fs.readFileSync('./src/index.html', "utf-8");
         jsdom.env(index, function(err, window) {
             const h1 = window.document.getElementsByTagName('h1') [0];
