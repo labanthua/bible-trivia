@@ -11,9 +11,9 @@ matrix:
     # install modules
     - npm install
 
-    # post-install-test scripts.
+    # post-install test scripts.
     test_script:
-      # output useful info on debugging.
+      # output useful info for debugging.
       - node --version
       - npm --version
       # run tests
